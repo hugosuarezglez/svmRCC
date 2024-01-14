@@ -9,6 +9,8 @@ Description: Clasifica entre tres tipos de tumor e indica el estado
     chRCC (chromophobe), control.
 Remotes:
   github: hugosuarezglez/svmRCC
+Imports: 
+  httr (>= 1.4.7)
 License: GNU GENERAL PUBLIC LICENSE
 Encoding: UTF-8
 LazyData: true
