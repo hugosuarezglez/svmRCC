@@ -4,19 +4,19 @@ ruta <- system.file('extdata', package = 'svmRCC')
 #### modelo
 
 
-#modelo <- readRDS(file=paste0(ruta,"/modelo_SVM_843.Rda"))
-#maximo <- readRDS(file=paste0(ruta,"/maximo_train.Rda"))
-#minimo <- readRDS(file=paste0(ruta,"/minimo_train.Rda"))
+modelo <- readRDS(file=paste0(ruta,"/modelo_SVM_843.Rda"))
+maximo <- readRDS(file=paste0(ruta,"/maximo_train.Rda"))
+minimo <- readRDS(file=paste0(ruta,"/minimo_train.Rda"))
 
 
-modelo <- readRDS(system.file("extdata", "modelo_SVM_843.Rda", package = "svmRCC"))
-maximo <- readRDS(system.file("extdata", "maximo_train.Rda", package = "svmRCC"))
-minimo <- readRDS(system.file("extdata", "minimo_train.Rda", package = "svmRCC"))
-genes_modelo <- readRDS(system.file("extdata", "genes_modelo_SVM.Rda", package = "svmRCC"))
+# modelo <- readRDS(system.file("extdata", "modelo_SVM_843.Rda", package = "svmRCC"))
+# maximo <- readRDS(system.file("extdata", "maximo_train.Rda", package = "svmRCC"))
+# minimo <- readRDS(system.file("extdata", "minimo_train.Rda", package = "svmRCC"))
+# genes_modelo <- readRDS(system.file("extdata", "genes_modelo_SVM.Rda", package = "svmRCC"))
 
 
 ## seleccionar datos
-#genes_modelo <- readRDS(file=paste0(ruta,"/genes_modelo_SVM.Rda"))
+genes_modelo <- readRDS(file=paste0(ruta,"/genes_modelo_SVM.Rda"))
 
 data <- data[,genes_modelo]
 
