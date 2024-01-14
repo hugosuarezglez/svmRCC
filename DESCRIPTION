@@ -7,6 +7,8 @@ Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Clasifica entre tres tipos de tumor e indica el estado
     del tumor. Early/Late. ccRCC (clear cell), pRCC (papillary),
     chRCC (chromophobe), control.
+Remotes:
+  github: hugosuarezglez/svmRCC
 License: GNU GENERAL PUBLIC LICENSE
 Encoding: UTF-8
 LazyData: true

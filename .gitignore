@@ -4,3 +4,4 @@
 .Ruserdata
 renv.lock
 renv/activate.R
+renv/
