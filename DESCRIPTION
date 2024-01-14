@@ -8,7 +8,7 @@ Description: Clasifica entre tres tipos de tumor e indica el estado
     del tumor. Early/Late. ccRCC (clear cell), pRCC (papillary),
     chRCC (chromophobe), control.
 Remotes:
-  github: hugosuarezglez/svmRCC
+  github: hugosuarezglez/svmRCC,
 Imports: 
   httr (>= 1.4.7)
 License: GNU GENERAL PUBLIC LICENSE
